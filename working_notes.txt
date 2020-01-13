@@ -5,3 +5,7 @@ Rust has both arrays and slices. Size of arrays is determined at compile time. I
 When attemping to create a slice with bounds larger than the array, the main thread panicks at runtime - not caught during compile.
 
 When attempting to access an array value that is larger then length of array, compile error is thrown. Guess slices are more prone to runtime mistakes as a result.
+
+One thing I'm noticing: this is the first time I've been in the zone for a long, long time. This is how to get yourself to spend absurd amounts of hours on something: work on stuff in a way that will completely absorb you. Where HC has opportunities for this, we need to be putting folks in a situation where they easily find themselves slipping into the zone. I literally type faster.
+
+rustfmt in Rust plugin for Vim doesn't seem to be working correctly. Both autosave and :RustFmt aren't doing anything.
