@@ -25,3 +25,5 @@ Question: What is the syntax for nested destructuring?
 Idea: basic OpenGL game written in Rust (FPS, like Doom?) compiled to web-friendly software and hosted as an easter egg on Hack Club's website. Question: Is there anything like emscripten for Rust? (WebAssembly as a compilation target, perhaps?)
 
 Question: What does `.to_owned()` do?
+
+I'm liking how Rust seems to have concepts around package management built into the language. By far, this is my biggest frustration with other languages. Go is a slight improvement in some ways, yet a huge regression in others with the way it does imports.
