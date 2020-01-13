@@ -27,3 +27,16 @@ Idea: basic OpenGL game written in Rust (FPS, like Doom?) compiled to web-friend
 Question: What does `.to_owned()` do?
 
 I'm liking how Rust seems to have concepts around package management built into the language. By far, this is my biggest frustration with other languages. Go is a slight improvement in some ways, yet a huge regression in others with the way it does imports.
+
+Question: What is the difference between heap and stack? Ex. what does this mean "Return representation of the list as a (heap allocated) string"
+
+Idea: Modify Neovim to warn me and force confirmation when I accidentally try to open a new Neovim instance from a terminal inside of Neovim.
+
+Question: What does the `ref` keyword do? Ex. `Cons(_, ref tail) => 1 + tail.len()`
+  Sub question: What is borrowing?
+
+Question: Can Rust produce dynamically-linked binaries? If so, can it also produce static binaries?
+
+Question: What is the `Cons` struct?
+
+Enums are really quite powerful, much more than I originally expected. Check out the linked list for a good example of this.
