@@ -23,3 +23,5 @@ Question: What's the deal with variable names that start with `_`?
 Question: What is the syntax for nested destructuring?
 
 Idea: basic OpenGL game written in Rust (FPS, like Doom?) compiled to web-friendly software and hosted as an easter egg on Hack Club's website. Question: Is there anything like emscripten for Rust? (WebAssembly as a compilation target, perhaps?)
+
+Question: What does `.to_owned()` do?
