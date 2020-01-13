@@ -1,0 +1,7 @@
+Starting writing of this document on Sunday, Jan 12 2020 on a plane from DCA -> DEN. It's 7:48PM ET.
+
+Rust has both arrays and slices. Size of arrays is determined at compile time. It appears that arrays are also immutable by default, but slices are always mutable - unclear on this though. Question: What's the convention for usage of arrays vs. slices?
+
+When attemping to create a slice with bounds larger than the array, the main thread panicks at runtime - not caught during compile.
+
+When attempting to access an array value that is larger then length of array, compile error is thrown. Guess slices are more prone to runtime mistakes as a result.
