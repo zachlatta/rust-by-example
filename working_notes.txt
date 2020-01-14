@@ -40,3 +40,5 @@ Question: Can Rust produce dynamically-linked binaries? If so, can it also produ
 Question: What is the `Cons` struct?
 
 Enums are really quite powerful, much more than I originally expected. Check out the linked list for a good example of this.
+
+Compared to writing Hack Club Bank / other Hack Club stuff, so far writing Rust has been so much easier to find flow in.
